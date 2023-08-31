@@ -1,0 +1,26 @@
+// nav.component.scss
+.main-navbar{
+    background-color: black;
+
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+
+        li a {
+            display: inline-block;
+            padding: 15px 25px;
+            text-decoration: none;
+            color: white;
+
+            &:hover{
+
+                color: black;
+                background-color: white;
+
+            }
+        }
+    }
+}
